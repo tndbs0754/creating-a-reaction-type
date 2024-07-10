@@ -1,0 +1,21 @@
+/* 반응형 rem 세팅 */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.inner {
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .inner {
+        max-width: 117rem;
+        margin: 0 1.6rem;
+    }
+}
